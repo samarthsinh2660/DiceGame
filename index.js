@@ -32,6 +32,6 @@ if ( n > n1) {
     document.querySelector("h1").innerHTML = "winner is player 1";
 } else if ( n1 > n) {
     document.querySelector("h1").innerHTML = "winner is player 2";
-} else {
+} else if (n1 == n) {
     ocument.querySelector("h1").innerHTML = "its draw";
 }
